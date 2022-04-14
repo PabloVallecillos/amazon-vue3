@@ -1,9 +1,10 @@
 <script setup lang="ts">
-import TheWelcome from "@/components/TheWelcome.vue";
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+  <q-page padding class="flex flex-center">
+    <p v-for="n in 50" :key="n">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit nihil praesentium molestias a adipisci, dolore vitae odit, quidem consequatur optio voluptates asperiores pariatur eos numquam rerum delectus commodi perferendis voluptate?
+    </p>
+  </q-page>
 </template>
