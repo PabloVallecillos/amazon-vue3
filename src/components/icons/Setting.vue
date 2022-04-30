@@ -43,10 +43,6 @@ const setTheme = (theme: boolean) => {
   localStorage.setItem("dark", String(theme));
 };
 
-const toggleLeftDrawer = () => {
-  $leftDrawerOpen.value = !$leftDrawerOpen.value;
-};
-const toggleRightDrawer = () => {
-  $rightDrawerOpen.value = !$rightDrawerOpen.value;
-};
+const toggleLeftDrawer = () => $leftDrawerOpen.value = !$leftDrawerOpen.value;
+const toggleRightDrawer = () => $rightDrawerOpen.value = !$rightDrawerOpen.value;
 </script>

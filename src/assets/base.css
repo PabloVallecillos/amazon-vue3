@@ -114,5 +114,9 @@ body {
   padding: 5px;
 }
 body.body--dark {
-  --q-primary: #000
+  --q-primary: #000;
+  --q-secondary: #fff;
+}
+.q-layout__section--marginal {
+  color: var(--q-secondary) !important;
 }

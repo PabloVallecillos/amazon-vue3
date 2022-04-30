@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-  <q-footer elevated class="bg-grey-8 text-white">
+  <q-footer elevated>
     <q-toolbar>
       <q-toolbar-title>
         <div>Footer</div>
